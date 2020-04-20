@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'blah.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join('/var', 'db.sqlite3'),
+        'NAME': os.path.join('/root/blah', 'db.sqlite3'),
     }
 }
 
